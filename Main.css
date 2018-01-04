@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#fff;
+}
+#bg{
+    height: 700px;
+    width: 1250px;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+#info{
+    font-family: fantasy;
+    font-size: 10em;
+    letter-spacing: 15px;
+    margin: 15px 0px;
+    padding: 0;
+    fill:#000;
+}
+#masked{
+    mask:url("#maskLayer");
+}
+#logo{
+    width: 4%;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#menu{
+    width:6%;
+    position: absolute;
+    top:50px;
+    left: 50px;
+}
+#elements{
+    height: 100%;
+    width:83%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#product{
+    width:70%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+#btn{
+    height:40px;
+    width: 200px;
+    background-color:#15171f;
+    font-family: fantasy;
+    font-size: 14px;
+    color:white;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
